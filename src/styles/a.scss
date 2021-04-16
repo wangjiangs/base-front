@@ -1,0 +1,19 @@
+$a:green;
+h3 {
+  margin-top: 100px;
+  text-align: center;
+  color: $a;
+  font-size: 32px;
+  text-shadow: 3px 3px 2px #000;
+  transform-origin: 45% 50%;
+  transform-style: preserve-3d;
+  animation: run 5s ease-in infinite forwards;
+}
+@keyframes run {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
