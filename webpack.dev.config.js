@@ -22,7 +22,10 @@ module.exports = {
         }]
     },
     devServer: {
-        contentBase: './dist'
+        useLocalIp: true,
+        contentBase: './dist',
+        host: '0.0.0.0',
+        port: 8080
     },
     plugins: [...Object.keys(app).map(key => new HtmlWebpackPlugin({
         filename: `${key}.html`,

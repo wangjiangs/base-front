@@ -1,3 +1,15 @@
+环境准备
+
+1、 node
+
+https://nodejs.org/zh-cn/ 下载安装。
+
+2、 yarn
+
+node安装好后，运行， `npm install -g yarn` 如果报错请`sudo npm install -g yarn`
+
+重启控制台即可
+
 安装
 ```shell
 yarn install
